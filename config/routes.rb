@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'profiles/show/:gh_id' => 'profiles#show'
   get 'emoji/index'
 
   # The priority is based upon order of creation: first created -> highest priority.

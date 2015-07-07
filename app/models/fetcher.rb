@@ -5,7 +5,7 @@ class Fetcher
     @uri = URI(uri)
   end
 
-  def emoji_pairs
+  def to_json
     JSON.parse(response.body)
   end
 
